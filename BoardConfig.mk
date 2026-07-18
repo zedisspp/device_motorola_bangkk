@@ -51,3 +51,7 @@ BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX := 30
 
 # inherit from the proprietary version
 include vendor/motorola/bangkk/BoardConfigVendor.mk
+
+# Disable binder vendor hooks — missing trace hook declarations in kernel tree
+export AXION_KERNEL_MODULES_BINDER_UX_HOOKS := n
+export AXION_KERNEL_MODULES_BINDER_OBS_HOOKS := n
