@@ -28,7 +28,8 @@ PRODUCT_PACKAGES += \
     ProductFrameworksResDevice \
     SettingsResDevice \
     SystemUIResDevice \
-    WifiResDevice
+    WifiResDevice \
+    EvoMaintainer
 
 # Audio
 PRODUCT_COPY_FILES += \
