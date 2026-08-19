@@ -26,10 +26,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="bangkk_g-user 15 V1TCS35H.88-16-4 d201a-da14f release-keys MV-301" \
     BuildFingerprint=motorola/bangkk_g/bangkk:15/V1TCS35H.88-16-4/d201a-da14f:user/release-keys \
     DeviceProduct=bangkk_g
-
-WITH_GMS := true
-BUILD_BCR := true
-TARGET_HAS_UDFPS := true
-TARGET_INCLUDE_BOOT_ANIMATIONS := true
-TARGET_DISABLE_EPPE := true
-TARGET_ENABLE_BLUR := true
