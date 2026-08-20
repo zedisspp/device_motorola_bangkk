@@ -26,8 +26,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="bangkk_g-user 15 V1TCS35H.88-16-4 d201a-da14f release-keys MV-301" \
     BuildFingerprint=motorola/bangkk_g/bangkk:15/V1TCS35H.88-16-4/d201a-da14f:user/release-keys \
     DeviceProduct=bangkk_g
-
-# Nyx stuff
-WITH_GMS := true
-NYX_MAINTAINER := Zediss
-IS_OFFICIAL := true
