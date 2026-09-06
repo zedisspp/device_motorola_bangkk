@@ -26,3 +26,15 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="bangkk_g-user 15 V1TCS35H.88-16-4 d201a-da14f release-keys MV-301" \
     BuildFingerprint=motorola/bangkk_g/bangkk:15/V1TCS35H.88-16-4/d201a-da14f:user/release-keys \
     DeviceProduct=bangkk_g
+
+# Pixel stuff
+PRODUCT_PACKAGES += \
+    Updater
+
+PRODUCT_COPY_FILES += \
+    vendor/custom/config/permissions/privapp-permissions-custom.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-custom.xml
+
+
+PRODUCT_PRODUCT_PROPERTIES += \
+        net.pixelos.build_type=ci
+

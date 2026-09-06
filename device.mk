@@ -29,7 +29,8 @@ PRODUCT_PACKAGES += \
     SettingsResDevice \
     SystemUIResDevice \
     WifiResDevice \
-
+    PixelUpdater \
+    
 # Audio
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_io_policy.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_io_policy.conf \
