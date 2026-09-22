@@ -13,6 +13,3 @@ ro.surface_flinger.has_wide_color_display=true
 # Radio
 ro.vendor.radio.imei.sv=26
 
-# ScrollOptimizer
-persist.sys.perf.scroll_opt = true
-persist.sys.perf.scroll_opt.heavy_app = 2
