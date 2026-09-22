@@ -113,3 +113,9 @@ PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/motorola/bangkk/bangkk-vendor.mk)
+
+# Moto Camera 4
+TARGET_MOTCAMERA4 := bangkk
+TARGET_USES_MOTCAMERA4 := true
+
+$(call inherit-product, vendor/motorola/MotCamera4-sm6375/motcamera4.mk)
