@@ -33,6 +33,10 @@ PRODUCT_PACKAGES += \
     SystemUIResDevice \
     WifiResDevice \
 
+# Spatial Audio
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.audio.spatializer_enabled=true
+
 # Audio
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_io_policy.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_io_policy.conf \
