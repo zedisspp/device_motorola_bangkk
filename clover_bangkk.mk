@@ -33,3 +33,11 @@ CLOVER_BUILDTYPE := Unnoficial
 TARGET_ENABLE_BLUR := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
+WITH_GMS := true
+
+# Updater
+PRODUCT_PACKAGES += \
+    Updater
+
+PRODUCT_COPY_FILES += \
+    vendor/clover/prebuilt/common/etc/init/init.clover-updater.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.clover-updater.rc
