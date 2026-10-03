@@ -8,6 +8,9 @@ DEVICE_PATH := device/motorola/bangkk
 # Inherit from motorola sm6375-common
 include device/motorola/sm6375-common/BoardConfigCommon.mk
 
+# Fix EUICC dependency
+BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
+
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := bangkk
 
