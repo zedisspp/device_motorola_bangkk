@@ -5,5 +5,5 @@
 -->
 <resources>
     <color name="taskbar_stashed_handle_dark_color">#77000000</color>
-    <color name="taskbar_stashed_handle_light_color">#9AFFFFFF</color>
+    <color name="taskbar_stashed_handle_light_color">#5FFFFFFF</color>
 </resources>
