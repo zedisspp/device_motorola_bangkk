@@ -31,8 +31,7 @@ PRODUCT_PACKAGES += \
     ProductFrameworksResDevice \
     SettingsResDevice \
     SystemUIResDevice \
-    WifiResDevice \
-    CloverUpdater
+    WifiResDevice
 
 # Spatial Audio
 PRODUCT_PROPERTY_OVERRIDES += \
