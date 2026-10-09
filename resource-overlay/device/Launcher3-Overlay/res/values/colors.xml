@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
-     SPDX-FileCopyrightText: The LineageOS Project
-     SPDX-License-Identifier: Apache-2.0
--->
-<resources>
-    <color name="taskbar_stashed_handle_dark_color">#77000000</color>
-    <color name="taskbar_stashed_handle_light_color">#5FFFFFFF</color>
-</resources>

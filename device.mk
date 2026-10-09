@@ -31,8 +31,8 @@ PRODUCT_PACKAGES += \
     ProductFrameworksResDevice \
     SettingsResDevice \
     SystemUIResDevice \
-    WifiResDevice \
-    Launcher3-Overlay
+    WifiResDevice
+    
 
 # Spatial Audio
 PRODUCT_PROPERTY_OVERRIDES += \
