@@ -31,7 +31,8 @@ PRODUCT_PACKAGES += \
     ProductFrameworksResDevice \
     SettingsResDevice \
     SystemUIResDevice \
-    WifiResDevice
+    WifiResDevice \
+    BluenixxUpdater
     
 
 # Spatial Audio
