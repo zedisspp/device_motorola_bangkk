@@ -21,6 +21,9 @@ PRODUCT_AAPT_PREBUILT_DPI := xxxhdpi xxhdpi xhdpi hdpi
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 33
 
+# Dolby Atmos
+TARGET_INCLUDES_OEM_App := true
+
 # Inherit from motorola sm6375-common
 $(call inherit-product, device/motorola/sm6375-common/common.mk)
 
