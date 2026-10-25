@@ -4,9 +4,9 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.lineageos.updater.bluenixx">
+    package="org.bluenixx.updater.overlay">
 
     <overlay
         android:isStatic="true"
-        android:targetPackage="org.lineageos.updater" />
+        android:targetPackage="org.bluenixx.updater" />
 </manifest>
