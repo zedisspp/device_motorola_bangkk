@@ -27,7 +27,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildFingerprint=motorola/bangkk_g/bangkk:15/V1TCS35H.88-16-8/2762f-8b2b3d:user/release-keys \
     DeviceProduct=bangkk_g
 
-RELEASE_TYPE := OFFICIAL
-BLUENIXX_MAINTAINER := zedisspp
+BLUENIXX_MAINTAINER := Zediss
 SURFACE_FLINGER_BOOST := true
 WITH_GMS := true
