@@ -32,7 +32,8 @@ PRODUCT_PACKAGES += \
     SettingsResDevice \
     SystemUIResDevice \
     WifiResDevice \
-    BluenixxUpdater
+    BluenixxUpdater \
+    BluenixxMaintainer
     
 
 # Audio
