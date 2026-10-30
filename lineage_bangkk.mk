@@ -29,6 +29,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Lunaris Flags
 TARGET_CUSTOM_UDFPS := true
+TARGET_OPTIMIZED_DEXOPT := true
+USE_ADVANCED_DISPLAY_COLOR := true
+WITH_BCR := true
 WITH_GMS := true
 USE_REALITY_ENGINE := true
 $(call soong_config_set,surfaceflinger,frame_rate_category_high,120)
