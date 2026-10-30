@@ -26,3 +26,11 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="bangkk_g-user 15 V1TCS35H.88-16-8 2762f-8b2b3d release-keys MV-301" \
     BuildFingerprint=motorola/bangkk_g/bangkk:15/V1TCS35H.88-16-8/2762f-8b2b3d:user/release-keys \
     DeviceProduct=bangkk_g
+
+# Lunaris Flags
+TARGET_CUSTOM_UDFPS := true
+WITH_GMS := true
+USE_REALITY_ENGINE := true
+$(call soong_config_set,surfaceflinger,frame_rate_category_high,120)
+$(call soong_config_set,surfaceflinger,frame_rate_category_min,60)
+SURFACE_FLINGER_BOOST := true
